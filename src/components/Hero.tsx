@@ -21,7 +21,7 @@ function Hero() {
       </h1>
 
       <p className="mt-2 text-base sm:text-xl">
-        Aspiring software engineer and fantasy writer.
+        Database Specialist and aspiring fantasy writer.
       </p>
 
       <a

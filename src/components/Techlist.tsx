@@ -9,6 +9,10 @@ const technologies: string[] = [
   'Typescript',
   'React',
   'Tailwind CSS',
+  'Symitar',
+  'Vorex', 
+  'Visual Studios', 
+  'Tableau',
 ]
 
 function TechList() {

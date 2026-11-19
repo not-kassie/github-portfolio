@@ -17,7 +17,7 @@ function AboutMe() {
         {/* Text column. space-y-6 puts equal space between the paragraphs and list. */}
         <div className="space-y-6 text-base leading-relaxed sm:text-lg">
           <p>
-            I am an aspiring software engineer. Currently, I am set to graduate
+            I am a Database Specialist working at a local credit union. Currently, I am set to graduate
             December 2026 with my Bachelor in Computer Science. This is my
             second degree with my first being a Bachelor in English
             Literature. I decided to go back to school to reignite my passion
