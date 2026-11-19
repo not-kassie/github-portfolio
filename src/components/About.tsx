@@ -17,8 +17,25 @@ function AboutMe() {
         {/* Text column. space-y-6 puts equal space between the paragraphs and list. */}
         <div className="space-y-6 text-base leading-relaxed sm:text-lg">
           <p>
-            I am a Database Specialist at a local credit union. Currently, I am set to graduate December 2026 with my bachelor’s in computer science. This is my second degree with my first being a bachelor’s in English literature. I decided to go back to school to reignite my passion for coding that I inherited from my grandfather who coded professionally in the 70s to 80s. In my studies, I’ve discovered I’m pretty intrigued by database work. It feels like a puzzle that I’m slowly piecing together. In my professional work, I’ve been working as a database specialist, but in-between reports, I’ve started to develop professional software for our company to use to analyze internal documents to cut back on tedious tasks and open up our time for other things that would benefit the credit union in the long run, and so we can move away from outside vendors. I find that I’m able to combine my degrees through documentation, social skills, and through my database work itself. The communication skills I developed in my first degree enable me to work through data requests with relative ease. Further, I have a few personal projects I dabble on in my free time to manage a database of literary agents for myself and my friends to use at our leisure when working on our other passions. I hope to continue this line of work well into my future. 
-
+            I am a Database Specialist at a local credit union. Currently, I 
+            am set to graduate December 2026 with my bachelor’s in computer science. 
+            This is my second degree with my first being a bachelor’s in English 
+            literature. I decided to go back to school to reignite my passion for 
+            coding that I inherited from my grandfather who coded professionally in 
+            the 70s to 80s. In my studies, I’ve discovered I’m pretty intrigued by 
+            database work. It feels like a puzzle that I’m slowly piecing together. 
+            In my professional work, I’ve been working as a database specialist, but 
+            in-between reports, I’ve started to develop professional software for our 
+            company to use to analyze internal documents to cut back on tedious tasks 
+            and open up our time for other things that would benefit the credit union 
+            in the long run, and so we can move away from outside vendors. I find that 
+            I’m able to combine my degrees through documentation, social skills, and 
+            through my database work itself. The communication skills I developed in 
+            my first degree enable me to work through data requests with relative ease.
+            Further, I have a few personal projects I dabble on in my free time to manage 
+            a database of literary agents for myself and my friends to use at our leisure
+            when working on our other passions. I hope to continue this line of work well 
+            into my future. 
           </p>
 
           <p>

@@ -1,4 +1,4 @@
-// To add or remove a technology, just edit this list.
+
 const technologies: string[] = [
   'Python',
   'Java',
@@ -13,6 +13,8 @@ const technologies: string[] = [
   'Vorex', 
   'Visual Studios', 
   'Tableau',
+  'Microsoft Reports',
+  'Claude',
 ]
 
 function TechList() {
