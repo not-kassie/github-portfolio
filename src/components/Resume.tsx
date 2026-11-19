@@ -1,5 +1,5 @@
 
-const RESUME_URL = '/resume.pdf'
+const RESUME_URL = 'resume.pdf'
 
 const DOWNLOAD_NAME = 'Kassandra-Flores-Resume.pdf'
 
