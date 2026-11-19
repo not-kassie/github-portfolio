@@ -1,7 +1,9 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutMe from './components/About';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <div id='content'>
           <Hero />
           <AboutMe />
+          <Resume />
         </div>
       </main>
       <Footer />

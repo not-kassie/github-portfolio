@@ -24,6 +24,7 @@ interface IconLink {
 const navLinks: NavLink[] = [
   { label: 'home', href: '#home' },
   { label: 'about me', href: '#about-me' },
+  { label: 'resume', href: '#resume' },
   { label: 'projects', href: '#projects' },
 ]
 
