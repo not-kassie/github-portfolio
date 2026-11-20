@@ -83,8 +83,8 @@ function Projects() {
         {projects.map((project) => (
           <li
             key={project.title}
-            className="flex flex-col rounded-2xl border border-white/10 bg-white/5 p-6 sm:p-7"
-          >
+            className="relative flex flex-col rounded-2xl border border-white/10 bg-white/5 p-6 transition duration-200 sm:p-7 hover:border-white/30 hover:shadow-[0_0_24px_rgb(255_255_255/0.15)] motion-safe:hover:-translate-y-1 has-[a:focus-visible]:border-white/30 has-[a:focus-visible]:shadow-[0_0_24px_rgb(255_255_255/0.15)]"
+        >
             <div className="flex items-start justify-between">
               <span className="text-white">
                 <FolderIcon />
@@ -97,18 +97,18 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`${project.title} on GitHub`}
-                    className={`block transition-opacity hover:opacity-70 ${focusRing}`}
+                    className={`relative block transition-opacity hover:opacity-70 ${focusRing}`}
                   >
                     <img src={githubIcon} alt="" className="block size-6" />
                   </a>
                 )}
                 {project.live && (
-                  <a
+                  <a 
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`${project.title} live demo`}
-                    className={`block text-white transition-opacity hover:opacity-70 ${focusRing}`}
+                    className={`relative block text-white transition-opacity hover:opacity-70 ${focusRing}`}
                   >
                     <ExternalIcon />
                   </a>
@@ -116,7 +116,20 @@ function Projects() {
               </div>
             </div>
 
-            <h3 className="mt-6 text-xl font-medium">{project.title}</h3>
+           <h3 className="mt-6 text-xl font-medium">
+                {project.github ? (
+                <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="after:absolute after:inset-0 after:rounded-2xl focus-visible:outline-none"
+                >
+                    {project.title}
+                </a>
+            ) : (
+                project.title
+            )}
+            </h3>
 
             <p className="mt-2 leading-relaxed text-muted">
               {project.description}
